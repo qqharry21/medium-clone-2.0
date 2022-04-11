@@ -9,9 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@sanity/cli": "^2.29.5",
+    "@sanity/image-url": "^1.0.1",
+    "autoprefixer": "^10.4.4",
     "next": "12.1.4",
+    "next-sanity": "^0.5.2",
+    "next-seo": "^5.4.0",
+    "postcss": "^8.4.12",
     "react": "18.0.0",
-    "react-dom": "18.0.0"
+    "react-dom": "18.0.0",
+    "react-hook-form": "^7.29.0",
+    "react-hot-toast": "^2.2.0",
+    "react-icons": "^4.3.1",
+    "react-portable-text": "^0.4.3",
+    "tailwindcss": "^3.0.23"
   },
   "devDependencies": {
     "@types/node": "17.0.23",
