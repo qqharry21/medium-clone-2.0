@@ -39,7 +39,7 @@ const Home = ({ posts }: Props) => {
       <div className='grid gap-3 md:gap-6 lg:grid-cols-3 sm:grid-cols-2 p-2 md:p-6'>
         {/* Post */}
         {posts.map(post => (
-          <Link href={`/post/${post.slug.current}`} key={post._id}>
+          <Link href={`/post/${post.slug.current}`} key={post._id} passHref>
             <div className='flex flex-col border-[1px] border-gray-400 rounded-lg duration-200 transition-all hover:shadow-md hover:scale-105'>
               <div className=''>
                 <div className='relative w-full h-60 overflow-hidden'>
